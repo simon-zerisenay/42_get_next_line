@@ -97,7 +97,9 @@ char	*get_next_line(int fd)
 	static char	*container_static;
 	char		*one_line;
 
-	if (fd < 0 || BUFFER_SIZE <= 0 || read(fd, 0, 0) < 0)
+	if (fd < 0 || BUFFER_SIZE <= 0)
+		return (NULL);
+	if (BUFFER_SIZE > 2147483647)
 		return (NULL);
 	container_static = read_file(fd, container_static);
 	if (!container_static)
