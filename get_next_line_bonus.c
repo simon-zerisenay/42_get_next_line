@@ -73,7 +73,7 @@ char	*read_file(int fd, char *resultant)
 
 	if (!resultant)
 		resultant = ft_calloc(1, 1);
-	appender = ft_calloc(BUFFER_SIZE + 1, sizeof(char));
+	appender = ft_calloc((size_t)BUFFER_SIZE + 1, sizeof(char));
 	noofbytes = 1;
 	while (noofbytes > 0)
 	{
@@ -94,10 +94,12 @@ char	*read_file(int fd, char *resultant)
 
 char	*get_next_line(int fd)
 {
-	static char	*container_static[1392];
+	static char	*container_static[256];
 	char		*one_line;
 
 	if (fd < 0 || BUFFER_SIZE <= 0 || read(fd, 0, 0) < 0)
+		return (NULL);
+	if (BUFFER_SIZE > 2147483647)
 		return (NULL);
 	container_static[fd] = read_file(fd, container_static[fd]);
 	if (!container_static[fd])
