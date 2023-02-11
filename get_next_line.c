@@ -73,7 +73,7 @@ char	*read_file(int fd, char *resultant)
 
 	if (!resultant)
 		resultant = ft_calloc(1, 1);
-	appender = ft_calloc(BUFFER_SIZE + 1, sizeof(char));
+	appender = ft_calloc((size_of)BUFFER_SIZE + 1, sizeof(char));
 	noofbytes = 1;
 	while (noofbytes > 0)
 	{
