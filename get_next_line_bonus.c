@@ -94,7 +94,7 @@ char	*read_file(int fd, char *resultant)
 
 char	*get_next_line(int fd)
 {
-	static char	*container_static[OPEN_MAX];
+	static char	*container_static[256];
 	char		*one_line;
 
 	if (fd < 0 || BUFFER_SIZE <= 0)
