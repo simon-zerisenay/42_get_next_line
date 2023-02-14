@@ -31,5 +31,3 @@ void	*ft_calloc(size_t elementCount, size_t elementSize);
 size_t	ft_strlen(const char *theString);
 
 #endif
-
-
