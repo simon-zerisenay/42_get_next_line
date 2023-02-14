@@ -81,5 +81,3 @@ In addition to that you can use valgrind 42. The link can be found here.
 * (https://github.com/opsec-infosec/42-ValgrindContainer)
 
 
-
-
