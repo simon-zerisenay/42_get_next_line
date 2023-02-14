@@ -87,3 +87,4 @@ size_t	ft_strlen(const char *theString)
 		i++;
 	return (i);
 }
+
