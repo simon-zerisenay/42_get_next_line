@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 #include "get_next_line.h"
+
 char	*joinandfree(char *resultant, char *appender)
 {
 	char	*temp;
