@@ -43,6 +43,7 @@ char	*find_remaining(char *resultant)
 	free(resultant);
 	return (remstatic);
 }
+
 char	*find_line(char *resultant)
 {
 	char	*one_line;
