@@ -21,6 +21,8 @@ char	*joinandfree(char *resultant, char *appender)
 	return (temp);
 }
 
+
+
 char	*find_remaining(char *resultant)
 {
 	int		i;
