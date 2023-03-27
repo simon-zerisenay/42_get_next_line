@@ -31,7 +31,7 @@ char	*find_remaining(char *resultant)
 	while (resultant[i] && resultant[i] != '\n')
 		i++;
 	if (!resultant[i]) 
-	{
+	{ 
 		free(resultant);
 		return (NULL);
 	}
