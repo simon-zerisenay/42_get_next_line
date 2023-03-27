@@ -27,7 +27,7 @@ char	*find_remaining(char *resultant)
 	int		j; 
 	char	*remstatic;
 
-	i = 0;
+	i = 0; 
 	while (resultant[i] && resultant[i] != '\n')
 		i++;
 	if (!resultant[i]) 
