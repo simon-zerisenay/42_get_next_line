@@ -24,7 +24,7 @@ char	*joinandfree(char *resultant, char *appender)
 char	*find_remaining(char *resultant)
 {
 	int		i; 
-	int		j;
+	int		j; 
 	char	*remstatic;
 
 	i = 0;
