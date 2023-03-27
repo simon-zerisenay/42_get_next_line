@@ -20,7 +20,7 @@ char	*joinandfree(char *resultant, char *appender)
 	free(resultant);
 	return (temp);
 }
-
+ 
 char	*find_remaining(char *resultant)
 {
 	int		i; 
