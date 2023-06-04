@@ -1,9 +1,12 @@
+<div align="center">
+	
 <h1 align="center">
 	📖 get_next_line
 </h1>
 
 <a href="https://github.com/simon-zerisenay/42_get_next_line">![42 Badge](https://github.com/mcombeau/mcombeau/blob/main/42_badges/get_next_linem.png)</a>
 
+</div>
 <p align="center">
 	<b><i>Reading a line on a fd is way too tedious</i></b><br>
 </p>
