@@ -29,7 +29,7 @@
 ---
 <label>
 	<h2> Score </h2>	
-	<img alt="100" style="width: 100px;height: 70px" src="https://github.com/simon-zerisenay/simon-zerisenay/blob/main/100.png"/>
+	<img alt="125" style="width: 100px;height: 70px" src="https://github.com/simon-zerisenay/simon-zerisenay/blob/main/125.png"/>
 </label>
 ## 💡 About the project
 
