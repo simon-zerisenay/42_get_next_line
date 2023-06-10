@@ -27,7 +27,10 @@
 </h3>
 
 ---
-
+<label>
+	<h2> Score </h2>	
+	<img alt="100" style="width: 100px;height: 70px" src="https://github.com/simon-zerisenay/simon-zerisenay/blob/main/100.png"/>
+</label>
 ## 💡 About the project
 
 > _The aim of this project is to make you code a function that returns a line, read from a file descriptor._
